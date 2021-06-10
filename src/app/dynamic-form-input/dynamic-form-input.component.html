@@ -1,6 +1,6 @@
 <div [formGroup]="form" class="form-group">
 
-  <div [ngSwitch]="input.controlType">
+  <div *ngIf="input !== undefined" [ngSwitch]="input.controlType">
 
     <div *ngSwitchCase="'textbox'">
       <label [attr.for]="input.key">{{input.label}}</label>

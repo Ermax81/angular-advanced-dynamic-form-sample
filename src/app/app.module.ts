@@ -12,10 +12,10 @@ import { DynamicFormComponent } from './dynamic-form/dynamic-form.component';
     DynamicFormInputComponent,
     DynamicFormComponent
   ],
-    imports: [
-        BrowserModule,
-        ReactiveFormsModule
-    ],
+  imports: [
+    BrowserModule,
+    ReactiveFormsModule
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -9,7 +9,7 @@ import {Observable} from 'rxjs';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'angular-dynamic-form-advanced';
+  title = 'angular-advanced-dynamic-form-sample';
 
   formFields: Observable<FormField<any>[]>;
   constructor(service: FormfieldControlService) {
